@@ -1,0 +1,47 @@
+ul.timeline {
+  > li.item {
+    list-style: none;
+    padding: 0 0 var(--size-large) var(--size-large);
+    margin-top: -2px;
+    border-left: 2px solid var(--accent-color);
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: var(--size-medium);
+      height: var(--size-medium);
+      border-radius: 50px;
+      left: -9px;
+      top: 0;
+      background: var(--background-color);
+      border: 2px solid var(--accent-color);
+    }
+
+    > h4.title {
+      line-height: 18px;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--default-color);
+      opacity: 0.8;
+    }
+
+    > h5.period,
+    > h5.website {
+      font-size: 16px;
+      padding: var(--size-xxsmall) var(--size-medium);
+      font-weight: 600;
+    }
+
+    > p.institution {
+      font-style: oblique;
+    }
+
+    > ul.description {
+      > li {
+        padding-bottom: var(--size-medium);
+      }
+    }
+  }
+}

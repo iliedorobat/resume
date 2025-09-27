@@ -1,0 +1,42 @@
+header.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 var(--size-medium) rgba(0, 0, 0, 0.1);
+
+  .navbar {
+    font-family: var(--nav-font);
+    font-size: var(--size-medium);
+    transition: 0.3s;
+
+    .navbar-nav {
+      width: 100%;
+
+      > a {
+        position: relative;
+
+        &.active,
+        &:hover {
+          color: var(--nav-hover-color);
+
+          &:before {
+            visibility: visible;
+            width: 40%;
+          }
+        }
+
+        &:before {
+          content: "";
+          position: absolute;
+          height: 3px;
+          bottom: 0;
+          left: 0;
+          background-color: var(--nav-hover-color);
+          visibility: hidden;
+          width: 0;
+          transition: all 0.3s ease-in-out 0s;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+// TODO: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --accent-color: #34b7a7;
+  --background-color: #ffffff;
+  --contrast-color: #ffffff;
+  --default-color: #444444;
+
+  --bs-bg-opacity: 1;
+  --bs-tertiary-bg-rgb: 248, 249, 250;
+
+  --heading-color: #222222;
+  --heading-font: "Raleway", sans-serif;
+
+  --nav-hover-color: #34b7a7;
+  --nav-font: "Gill Sans", sans-serif;
+
+  --size-xxsmall: 2px;
+  --size-xsmall: 4px;
+  --size-small: 8px;
+  --size-medium: 16px;
+  --size-large: 24px;
+  --size-xlarge: 32px;
+  --size-xxlarge: 48px;
+  --size-xxxlarge: 64px;
+}

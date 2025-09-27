@@ -1,0 +1,16 @@
+.papers {
+  > li {
+    list-style: none;
+    padding: 0 0 var(--size-large) var(--size-xxxlarge);
+
+    h4 {
+      line-height: 18px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+  }
+}

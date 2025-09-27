@@ -1,0 +1,64 @@
+@import "src/assets/scss/app.scss";
+
+html,
+body,
+div#root,
+div.app-container {
+  height: 100%;
+}
+
+div#root {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--heading-color);
+      font-family: var(--heading-font);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    > main {
+      a {
+        color: var(--accent-color);
+        transition: 0.3s;
+      }
+    }
+  }
+
+  #scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: var(--size-xlarge);
+    bottom: var(--size-medium);
+    z-index: 99999;
+    background-color: var(--accent-color);
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    transition: all 0.4s;
+
+    &:hover {
+      opacity: 0.8;
+      color: var(--contrast-color);
+      cursor: pointer;
+    }
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    > i {
+      font-size: 24px;
+      color: var(--contrast-color);
+      line-height: 0;
+    }
+  }
+}

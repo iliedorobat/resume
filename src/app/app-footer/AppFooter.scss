@@ -1,0 +1,32 @@
+footer.app-footer {
+  font-family: var(--nav-font);
+  font-size: var(--size-medium);
+  transition: 0.3s;
+
+  background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+  box-shadow: 0 0 var(--size-medium) rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-small);
+  padding: var(--size-xlarge);
+  margin-top: auto;
+
+  > div {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+
+    &.social-media > a {
+      border: 1px solid;
+      padding: var(--size-small);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: var(--size-medium);
+    }
+  }
+}

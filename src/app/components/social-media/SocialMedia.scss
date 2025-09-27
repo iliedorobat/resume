@@ -1,0 +1,19 @@
+.social-media > a {
+  display: inline-flex;
+  color: var(--default-color);
+  opacity: 0.8;
+
+  &:hover {
+    color: var(--nav-hover-color);
+    opacity: 1;
+  }
+
+  &.research-gate > img {
+    height: var(--size-medium);
+  }
+
+  > i {
+    display: inline-flex;
+    font-size: var(--size-medium);
+  }
+}
