@@ -24,8 +24,7 @@ const SIDE_LEFT: ISideConfig[] = [
   },
   {
     title: LABELS.github,
-    value: "https://github.com/iliedorobat",
-    isAnchor: true,
+    value: <a href="https://github.com/iliedorobat" target="_blank" rel="noreferrer">https://github.com/iliedorobat</a>,
   },
 ];
 
