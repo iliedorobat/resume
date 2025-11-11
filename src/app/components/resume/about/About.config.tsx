@@ -22,6 +22,11 @@ const SIDE_LEFT: ISideConfig[] = [
     value: "https://iliedorobat.ro/",
     isAnchor: true,
   },
+  {
+    title: LABELS.github,
+    value: "https://github.com/iliedorobat",
+    isAnchor: true,
+  },
 ];
 
 const SIDE_RIGHT: ISideConfig[] = [
