@@ -43,7 +43,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         }
       />,
       <ProjectDescription
-        techStack={<><b>JavaScript, Polymer 3, LitElement,</b> SCSS, HTML</>}
+        techStack={<><b>JavaScript, Polymer 3, LitElement,</b> SCSS, HTML, <b>Java</b></>}
         text={
           <>
             <a href="https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html"
