@@ -186,7 +186,7 @@ const PROJECTS: ITimelineItem[] = [
         gap between traditional metadata standards and the semantic web, eCHO ensures that structured
         information remains <b>intact, interoperable, and reusable within a linked data ecosystem.</b>
       </>,
-      <TechStack techStack={<><b>Java, RDF, OWL, EDM</b></>} />
+      <TechStack techStack={<><b>Java, RDF, OWL, EDM, Apache Jena</b></>} />
     ],
     website: "https://github.com/iliedorobat/enriching-cultural-heritage-metadata",
     displayWebsite: true,
