@@ -31,7 +31,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         }
       />,
       <ProjectDescription
-        techStack={<><b>JavaScript, TypeScript, ReactJS, Redux,</b> SCSS, HTML</>}
+        techStack={<><b>JavaScript, TypeScript, ReactJS, Redux,</b> SCSS, HTML, Micro Frontends</>}
         text={
           <>
             <a href="https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html"
@@ -89,7 +89,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
           <b>I lead university laboratories</b> in the following disciplines, guiding students through
           practical exercises and projects:<br/>
           - Human-Computer Interaction<br/>
-          - Object Oriented Programming (using Java)
+          - Object Oriented Programming in Java
         </>
       } />,
 

@@ -51,6 +51,8 @@ const TECH_STACK: ISideConfig[] = [
       "React",
       "Angular",
       "Flask",
+      "Spring Boot",
+      "spaCy",
     ].join(", "),
   },
 ];
