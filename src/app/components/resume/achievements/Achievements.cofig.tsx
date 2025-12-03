@@ -130,7 +130,7 @@ const PROJECTS: ITimelineItem[] = [
         the collection, processing, and aggregation of data analyzed both in the form of 8+1 dimensions and
         into a single global indicator, QoLI (Quality of Life Index).
       </>,
-      <TechStack techStack={<><b>JavaScript, TypeScript, Angular 18,</b> ChartJS, <b>Java, Grizzly</b></>} />
+      <TechStack techStack={<><b>TypeScript, Angular 18, Material UI,</b> ChartJS,<b> SCSS, HTML5, Java, Grizzly</b></>} />
     ],
     website: "https://life-index.eu/",
     displayWebsite: true,

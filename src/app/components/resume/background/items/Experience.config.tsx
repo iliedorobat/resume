@@ -19,8 +19,8 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         - I have lead software development teams since 2020.
       </b>,
       <ProjectDescription
-        techStack={<><b>JavaScript, TypeScript, ReactJS, Context API,</b> SCSS, HTML, <b>Python, Flask, SQLAlchemy,
-          PostgreSQL,</b> Docker</>}
+        techStack={<><b>TypeScript, ReactJS, Context API,</b> SCSS, HTML5, Bootstrap, <b>Python,
+          Flask, SQLAlchemy, PostgreSQL, </b>Docker</>}
         text={
           <>
             <b>Tortuga QA Dashboard:</b> Since the early stages of this platform, which provides QA
@@ -31,7 +31,8 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         }
       />,
       <ProjectDescription
-        techStack={<><b>JavaScript, TypeScript, ReactJS, Redux,</b> SCSS, HTML, Micro Frontends</>}
+        techStack={<><b>JavaScript, TypeScript, ReactJS, Redux,</b> SCSS, HTML5, Bootstrap,
+          <b>Micro Frontends</b></>}
         text={
           <>
             <a href="https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html"
@@ -43,7 +44,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         }
       />,
       <ProjectDescription
-        techStack={<><b>JavaScript, Polymer 3, LitElement,</b> SCSS, HTML, <b>Java</b></>}
+        techStack={<><b>JavaScript, Polymer 3, LitElement,</b> SCSS, HTML5, <b>Java, Spring Boot</b></>}
         text={
           <>
             <a href="https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html"
@@ -53,7 +54,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         }
       />,
       <ProjectDescription
-        techStack={<><b>JavaScript, TypeScript, Angular 8,</b> SCSS, HTML</>}
+        techStack={<><b>TypeScript, Angular 8,</b> SCSS, HTML5</>}
         text={
           <>
             <a href="https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/html5-vcenter-plug-in/cisco-aci-html5-vcenter-plug-in/m-cisco-aci-vcenter-plug-in.html"
@@ -63,7 +64,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         }
       />,
       <ProjectDescription
-        techStack={<><b>JavaScript, ReactJS, Redux,</b> SCSS, HTML</>}
+        techStack={<><b>JavaScript, ReactJS, Redux,</b> SCSS, HTML5</>}
         text={
           <>
             <a href="https://www.cisco.com/c/en/us/support/data-center-analytics/nexus-insights/series.html"
@@ -88,11 +89,10 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         <>
           <b>I lead university laboratories</b> in the following disciplines, guiding students through
           practical exercises and projects:<br/>
-          - Human-Computer Interaction<br/>
+          - Human-Computer Interaction (mockup design in Figma)<br/>
           - Object Oriented Programming in Java
         </>
       } />,
-
     ],
     priority: 6,
   },
@@ -117,7 +117,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
     website: "https://www.anaf.ro/",
     descriptions: [
       <ProjectDescription
-        techStack={<><b>JavaScript,</b> SmartClient, HTML/CSS, <b>Oracle SQL, PL/SQL</b></>}
+        techStack={<><b>JavaScript,</b> SmartClient, HTML, CSS, <b>Oracle SQL, PL/SQL</b></>}
         text={<>
           Developed multiple plugins for declaration forms (including <b>VAT D300</b> and <b>Income
           Tax Statement</b>) and the <b>Risk Analysis Sheet</b> module to integrate new forms into
@@ -143,7 +143,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
     website: "https://www.aprsolutionssrl.com/en/",
     descriptions: [
       <ProjectDescription
-        techStack={<><b>JavaScript,</b> AngularJS 1.6, HTML/CSS (Bootstrap), <b>Java, MariaDB 10.2</b></>}
+        techStack={<><b>JavaScript,</b> AngularJS 1.6, HTML, CSS, Bootstrap, <b>Java, MariaDB 10.2</b></>}
         text={
         <>
           <b>Solutions Manager</b> is a management system for production of industrial graphics machinery.
