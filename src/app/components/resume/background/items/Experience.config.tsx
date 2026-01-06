@@ -87,7 +87,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
     descriptions: [
       <ProjectDescription text={
         <>
-          <b>I lead university laboratories</b> in the following disciplines, guiding students through
+          <b>I have been leading university laboratories</b> in the following disciplines, guiding students through
           practical exercises and projects:<br/>
           - Human-Computer Interaction (mockup design in Figma)<br/>
           - Object Oriented Programming in Java
