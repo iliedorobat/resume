@@ -10,6 +10,8 @@ import { EXPERIENCE_ITEMS } from "./items/Experience.config";
 import { LABELS } from "src/app/common/strings";
 import { LANGUAGE_SKILLS_ITEMS, NETWORKS_ITEMS, SOCIAL_ACTIVITIES_ITEMS } from "./items/Activities.config";
 
+import "./Background.scss";
+
 function Background() {
   const {eduRef, expRef} = useScroll();
 
@@ -21,7 +23,7 @@ function Background() {
         </Section>
       </Col>
       <Col md={6}>
-        <Section ref={eduRef} title={LABELS.education} isSubsection={true}>
+        <Section ref={eduRef} className="education" title={LABELS.education} isSubsection={true}>
           <Timeline items={EDUCATION_ITEMS} />
         </Section>
         <Section title={LABELS.languageSkills} isSubsection={true}>

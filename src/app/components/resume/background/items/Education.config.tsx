@@ -1,3 +1,5 @@
+import React from "react";
+
 import { DegreeType, IEducationItem } from "src/app/shared/timeline/Timeline.types";
 import { LABELS } from "src/app/common/strings";
 
@@ -9,6 +11,9 @@ const EDUCATION_ITEMS: IEducationItem[] = [
     country: LABELS.romania,
     period: "01/10/2017 – 2023",
     website: "https://upb.ro/",
+    descriptions: [
+      <FieldOfStudy mainField={LABELS.computerScience} />
+    ],
     priority: 4,
   },
   {
@@ -18,6 +23,9 @@ const EDUCATION_ITEMS: IEducationItem[] = [
     country: LABELS.romania,
     period: "01/10/2015 – 2017",
     website: "https://upb.ro/",
+    descriptions: [
+      <FieldOfStudy mainField={LABELS.computerScience} />
+    ],
     priority: 3,
   },
   {
@@ -27,6 +35,9 @@ const EDUCATION_ITEMS: IEducationItem[] = [
     country: LABELS.romania,
     period: "01/10/2011 – 2014",
     website: "https://www.ub.ro/",
+    descriptions: [
+      <FieldOfStudy mainField={LABELS.computerScience} />
+    ],
     priority: 2,
   },
   {
@@ -36,6 +47,9 @@ const EDUCATION_ITEMS: IEducationItem[] = [
     country: LABELS.romania,
     period: "01/10/2010 – 2012",
     website: "https://www.ub.ro/",
+    descriptions: [
+      <FieldOfStudy mainField={LABELS.accountancy} />
+    ],
     priority: 1,
   },
   {
@@ -45,8 +59,23 @@ const EDUCATION_ITEMS: IEducationItem[] = [
     country: LABELS.romania,
     period: "01/10/2007 – 2010",
     website: "https://www.ub.ro/",
+    descriptions: [
+      <FieldOfStudy mainField={LABELS.accountancy} />
+    ],
     priority: 0,
   },
 ];
+
+function FieldOfStudy({ mainField }: { mainField: string }) {
+  if (!mainField) {
+    return null;
+  }
+
+  return (
+    <div>
+      <b>{LABELS.fieldOfStudy}:</b> {mainField}
+    </div>
+  );
+}
 
 export { EDUCATION_ITEMS };

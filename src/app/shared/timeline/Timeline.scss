@@ -30,8 +30,11 @@ ul.timeline {
     > h5.period,
     > h5.website {
       font-size: 16px;
-      padding: var(--size-xxsmall) var(--size-medium);
       font-weight: 600;
+    }
+
+    > h5.website {
+      padding: var(--size-xxsmall) var(--size-medium);
     }
 
     > p.institution {

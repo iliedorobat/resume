@@ -5,7 +5,7 @@ import { LABELS } from "src/app/common/strings";
 
 const EXPERIENCE_ITEMS: ITimelineItem[] = [
   {
-    title: LABELS.softwareDeveloper,
+    title: LABELS.seniorSoftwareDeveloper,
     institution: LABELS.luxoft,
     locality: LABELS.bucharest,
     country: LABELS.romania,
@@ -15,8 +15,8 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
       <b>
         Achievements:<br/>
         - I developed multiple enterprise projects using various technologies.<br/>
-        - I have conducted interviews for JavaScript developer positions since 2019.<br/>
-        - I have lead software development teams since 2020.
+        - I have been conducting interviews for JavaScript developer positions since 2019.<br/>
+        - I have been leading software development teams since 2020.
       </b>,
       <ProjectDescription
         techStack={<><b>TypeScript, ReactJS, Context API,</b> SCSS, HTML5, Bootstrap, <b>Python,
@@ -97,7 +97,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
     priority: 6,
   },
   {
-    title: LABELS.expert,
+    title: LABELS.expertIt,
     institution: LABELS.ministryOfFinance,
     locality: LABELS.bucharest,
     country: LABELS.romania,
@@ -109,7 +109,7 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
     priority: 4,
   },
   {
-    title: LABELS.expert,
+    title: LABELS.expertIt,
     institution: LABELS.anaf,
     locality: LABELS.bucharest,
     country: LABELS.romania,
