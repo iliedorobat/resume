@@ -17,26 +17,22 @@ const SIDE_LEFT: ISideConfig[] = [
     title: LABELS.email,
     value: "iliecristiandorobat@gmail.com",
   },
-  {
-    title: LABELS.website,
-    value: "https://iliedorobat.ro/",
-    isAnchor: true,
-  },
-  {
-    title: LABELS.github,
-    value: <a href="https://github.com/iliedorobat" target="_blank" rel="noreferrer">https://github.com/iliedorobat</a>,
-  },
+  // {
+  //   title: LABELS.website,
+  //   value: "https://iliedorobat.ro/",
+  //   isAnchor: true,
+  // },
 ];
 
 const SIDE_RIGHT: ISideConfig[] = [
   {
-    title: LABELS.degree,
-    value: LABELS.phd + " in Computer Science",
+    title: LABELS.github,
+    value: <a href="https://github.com/iliedorobat" target="_blank" rel="noreferrer">https://github.com/iliedorobat</a>,
   },
   {
     title: LABELS.owner,
     value: <a href="https://life-index.eu/" target="_blank" rel="noreferrer">https://life-index.eu/</a>,
-  }
+  },
 ];
 
 const TECH_STACK: ISideConfig[] = [

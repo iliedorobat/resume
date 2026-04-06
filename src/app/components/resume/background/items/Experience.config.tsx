@@ -1,21 +1,48 @@
-import React, { ReactNode } from "react";
+import React from "react";
 
 import { ITimelineItem } from "src/app/shared/timeline/Timeline.types";
+import ProjectDescription from "src/app/components/resume/ProjectDescription";
 import { LABELS } from "src/app/common/strings";
 
 const EXPERIENCE_ITEMS: ITimelineItem[] = [
   {
-    title: LABELS.seniorSoftwareDeveloper,
+    title: LABELS.softwareEngineer,
+    institution: LABELS.orionInnovation,
+    locality: LABELS.bucharest,
+    country: LABELS.romania,
+    period: "14/01/2026 – CURRENT",
+    website: "https://www.orioninc.com/",
+    descriptions: [
+      <ProjectDescription text={
+        <>
+          <ProjectDescription
+              techStack={<><b>TypeScript, ReactJS, Context API,</b> SCSS, HTML5, Docker,
+                Claude Code, Cursor</>}
+              text={
+                <>
+                  Contribute to the <b>DriveNets Automation Platform (DAP):</b> design and
+                  implement a chat assistant using AI tools like Claude Code and Cursor,
+                  integrate backend APIs, and collaborate with cross-functional teams.
+                </>
+              }
+          />
+        </>
+      } />,
+    ],
+    priority: 7,
+  },
+  {
+    title: LABELS.seniorSoftwareEngineer,
     institution: LABELS.luxoft,
     locality: LABELS.bucharest,
     country: LABELS.romania,
-    period: "14/05/2018 – CURRENT",
+    period: "14/05/2018 – 31/12/2025",
     website: "https://www.luxoft.com/",
     descriptions: [
       <b>
         Achievements:<br/>
         - I developed multiple enterprise projects using various technologies.<br/>
-        - I have been conducting interviews for JavaScript developer positions since 2019.<br/>
+        - I have been conducting interviews for JavaScript engineer positions since 2019.<br/>
         - I have been leading software development teams since 2020.
       </b>,
       <ProjectDescription
@@ -31,8 +58,8 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
         }
       />,
       <ProjectDescription
-        techStack={<><b>JavaScript, TypeScript, ReactJS, Redux,</b> SCSS, HTML5, Bootstrap,
-          <b>Micro Frontends</b></>}
+        techStack={<><b>JavaScript, TypeScript, ReactJS, Redux,</b> SCSS, HTML5, Bootstrap, <b>
+          Micro Frontends</b></>}
         text={
           <>
             <a href="https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html"
@@ -178,23 +205,5 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
     priority: 0,
   },
 ];
-
-interface IProjectDescriptionProps {
-  techStack?: string | ReactNode;
-  text?: string | ReactNode;
-}
-
-function ProjectDescription({ techStack, text }: IProjectDescriptionProps) {
-  if (!text && !techStack) {
-    return null;
-  }
-
-  return (
-    <>
-      {text && <div>{text}</div>}
-      {techStack && <div><b>{LABELS.techStack}:</b> {techStack}</div>}
-    </>
-  );
-}
 
 export { EXPERIENCE_ITEMS };

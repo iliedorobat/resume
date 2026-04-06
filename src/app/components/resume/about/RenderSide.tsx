@@ -10,9 +10,9 @@ interface IRenderSideProps {
 
 function RenderSide({ sectionConfig }: IRenderSideProps) {
   return (
-    <ul>
+    <div className="item-container">
       {sectionConfig.map((item: ISideConfig, i: number) => (
-        <li key={item.title}>
+        <div className="item" key={item.title}>
           <i className="bi bi-chevron-right"></i>
           <span className="title">
             {item.title}:
@@ -24,9 +24,9 @@ function RenderSide({ sectionConfig }: IRenderSideProps) {
               </Link>
             ) : item.value}
           </span>
-        </li>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 }
 

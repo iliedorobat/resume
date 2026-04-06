@@ -5,13 +5,27 @@
     border-radius: 40%;
   }
 
-  ul {
+  .description,
+  .summary {
+    display: flex;
+    row-gap: 24px;
+  }
+
+  .description > .about-picture-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item-container {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    gap: 8px;
 
-    > li {
+    > .item {
       list-style: none;
-      padding: var(--size-small) 0;
 
       > i {
         color: var(--accent-color);

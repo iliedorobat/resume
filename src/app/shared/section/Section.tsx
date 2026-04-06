@@ -21,7 +21,7 @@ function Section({ children, className, title, isSubsection, ref }: ISection): J
           </div>
         ) : <h3 className="margin-top-large">{title}</h3>
       ) : null}
-      <Row className={isSubsection ? "margin-top-large" : ""}>
+      <Row className={isSubsection ? "description margin-top-large" : "description"}>
         {children}
       </Row>
     </section>

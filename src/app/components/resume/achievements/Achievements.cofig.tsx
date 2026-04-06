@@ -78,7 +78,7 @@ const ORGANISATIONAL_SKILLS_ITEMS: ITimelineItem[] = [
         Intersight projects, and Cisco ACI vCenter Plugin.
       </>,
       <>
-        <b>I conducted hundreds of technical interviews</b> for JavaScript developer positions for
+        <b>I conducted hundreds of technical interviews</b> for JavaScript engineer positions for
         all seniority levels.
       </>
     ],
