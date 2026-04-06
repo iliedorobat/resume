@@ -35,7 +35,7 @@ const dictionary = {
   languageSkills: "Language Skills",
   lecturer: "Lecturer",
   location: "Location",
-  luxoft: "Luxoft SRL",
+  luxoft: "Luxoft, a DXC Company",
   luxoftJobTitle: "Software Engineer @ Orion Innovation",
   margineni: "Margineni",
   ministryOfFinance: "Ministry of Finance",
