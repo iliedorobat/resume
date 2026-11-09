@@ -62,7 +62,7 @@ const dictionary = {
   ub: "\"Vasile Alecsandri\" University of Bacău",
   upb: "University Politehnica of Bucharest",
   upbNew: "National University of Science and Technology Politehnica Bucharest",
-  upbJobTitle: "Lecturer @ UPB",
+  upbJobTitle: "Lecturer @ UNSTPB",
   volunteer: "Volunteer",
   webdata: "WebData",
   website: "Website",

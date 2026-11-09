@@ -16,13 +16,19 @@ const EXPERIENCE_ITEMS: ITimelineItem[] = [
       <ProjectDescription text={
         <>
           <ProjectDescription
-              techStack={<><b>TypeScript, ReactJS, Context API,</b> SCSS, HTML5, Docker,
-                Claude Code, Cursor</>}
+              techStack={<><b>TypeScript, ReactJS, Python, LangGraph, AG-UI, A2A,</b> PostgreSQL,
+                Docker, Claude Code, Cursor</>}
               text={
                 <>
-                  Contribute to the <b>DriveNets Automation Platform (DAP):</b> design and
-                  implement a chat assistant using AI tools like Claude Code and Cursor,
-                  integrate backend APIs, and collaborate with cross-functional teams.
+                  I built and hardened <b>NetGen</b>, an AI-powered chat assistant, working
+                  on both the React frontend and the LangGraph agent backend. The work covered
+                  moving the chat to AG-UI streaming, rendering agent-to-agent delegation and
+                  HITL flows, and hardening sessions and streaming for reliability.<br/><br/>
+
+                  I led the integration of NetGen's LLM traffic with AI Gateway, adding model
+                  routing, failover, and guardrails. The work also delivered end-to-end OpenTelemetry
+                  tracing that records no prompt or answer content, with per-step token and cost
+                  attribution for every model call.<br/><br/>
                 </>
               }
           />

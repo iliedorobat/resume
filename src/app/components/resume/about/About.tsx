@@ -35,7 +35,7 @@ function About() {
             of experience in software engineering. Expert in JavaScript, TypeScript,
             React, Java, and Python , with a proven track record of leading development
             teams and driving the end-to-end delivery of complex, cloud-based platforms
-            for global clients like CISCO.
+            for global clients like CISCO and DriveNets.
           </Col>
           <Col md={12}>
             <b>Holding a Ph.D. in Computer Science specializing in Knowledge Graphs and
